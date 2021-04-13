@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-align: center; }
+
+nav {
+  height: 2rem;
+  background-color: none;
+  line-height: 1; }
+
+.nav::after {
+    content: "";
+    clear: both;
+    display: table; }
+
+a.link::after,
+.link::before {
+  text-emphasis: none; }
+
+body {
+  font-family: "Merriweather", Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.primaryh1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e3e3f0;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 4rem;
+  position: relative; }
+
+.primary--main {
+  display: block;
+  font-size: 5.5rem; }
+
+.primary--sub {
+  display: block; }
+
+.primaryh2 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #575758;
+  text-align: left; }
+
+.text--sub, .text--sub2 {
+  text-align: left; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to top right, rgba(181, 92, 61, 0.5), rgba(228, 173, 154, 0.9)), url(lion4.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 2rem; }
+.header__headerbox {
+    position: relative;
+    top: 10rem; }
+
+.cat {
+  list-style: none;
+  float: left; }
+.cat li {
+    display: inline-block;
+    margin-left: 3rem; }
+ .cat li:first-child {
+      margin: 0.3rem 1rem 0 2rem; }
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #575758; }
+.link:hover {
+    text-decoration-line: underline; }
+
+.btn ::before,
+.btn ::after {
+  text-emphasis: none; }
+
+.btn--header {
+  background: none;
+  font-size: 2rem;
+  border-width: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(227, 227, 240, 0.6);
+  font-family: "Montserrat", verdana, sans-serif;
+  margin-top: 5rem; }
+.btn--header :hover {
+    animation-duration: 2s;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e3e3f0; }
+
+main {
+  height: 95vh; }
+.main {
+    height: 90vh; }
+
+.footer {
+  background-color: rgba(228, 173, 154, 0.7);
+  text-decoration: none;
+  color: #575758; }
+
+.text--div {
+  width: 44vw;
+  margin-left: 2rem;
+  position: absolute; }
+
+.text--sub2 {
+  position: relative; }
+
+.text--image {
+  margin-left: 50vw; }
+ .tiger {
+    display: inline;
+    position: relative;
+    width: 44vw;
+    margin-top: 2rem; }
